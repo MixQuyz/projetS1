@@ -33,18 +33,6 @@
 
 }
 
-.menu-open .nav-toggle-bar {
-    transform: rotate(135deg);
-    background-color: white;
-
-}
-
-.nav-toggle-bar::before
-.nav-toggle-bar::after{
-    background-color: white;
-    transform: rotate(45deg);
-}
-
 /* Menu */
 
 .menu {
