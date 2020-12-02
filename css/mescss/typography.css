@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Condensed&family=Ubuntu+Mono:wght@700&display=swap');
-html{     font-size: 62.5%; }
+html{font-size: 62.5%; }
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -8,24 +8,68 @@ body {
     margin: 0 20px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
     text-decoration: none;
     color: mediumpurple;
 }
+
+p {
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+
+
 .titresite > h1{
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
     display: block;
     position: relative;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
-.titresite > h1:before {
-    content: url("llama.svg") ;
-    width: 12px;
+.titresite > i {
+    position: absolute;
+    display: block;
+    top: 10px;
 }
 
+header > img {
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+}
 
 .top {
     background-color: #4C0A80;
     color: white;
-    font-family: "Ubuntu Condensed";
-    font-size: 1rem;
+    margin: 0 -20px;
+    padding-top: 5px;
+}
+
+.top > h1 {
+    font-family: "Ubuntu Condensed" ,sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #4C0A80;
+    color: white;
+}
+footer > p > span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
