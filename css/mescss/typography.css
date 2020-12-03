@@ -15,7 +15,6 @@ img {
 
 a {
     text-decoration: none;
-    color: mediumpurple;
 }
 
 p {
@@ -65,11 +64,77 @@ header > img {
     padding: 10px;
 }
 
+.tweet > h2 {
+    font-family: "Ubuntu Condensed" ,sans-serif;
+    font-size: 20px;
+    color: #800A69;
+}
+
+.violet {
+    background-color: #4C0A80;
+    color: white;
+    margin: 0 -20px;
+    padding: 0 20px 5px 20px;
+}
+
+.bordeaux {
+    background-color: #800A69;
+    color: white;
+    margin: 0 -20px;
+    padding: 0 20px;
+
+}
+
+.mauve {
+    font-family: "Ubuntu Condensed" ,sans-serif;
+    font-size: 20px;
+    color: #800A69;
+    position: relative;
+}
+
+
+h2 {
+    font-family: "Ubuntu Mono" ,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #4C0A80;
     color: white;
+    margin: 0 -20px;
 }
+
+footer > p {
+    font-family:"Ubuntu Condensed", sans-serif;
+    font-size: 15px;
+    display: table-cell;
+
+}
+
 footer > p > span {
+    font-size: 20px;
     writing-mode: vertical-rl;
-    text-orientation: mixed;
+    text-orientation: mixed ;
+    display: block;
+
+}
+
+p > a {
+    background-color: #800A69;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+footer > .milieu_footer {
+    display: table-cell;
+}
+
+.sociaux {
+    display: table-cell;
+    padding-left: 40px;
 }
