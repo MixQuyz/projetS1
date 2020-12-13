@@ -171,7 +171,7 @@ textarea {
     border: none;
 }
 
-a[href="a_propos.html"] {
+a[href="gg"] {
     display: block;
     position: relative;
     width: 71px;
@@ -180,7 +180,7 @@ a[href="a_propos.html"] {
     left: 220px;
 }
 
-a[href="a_propos.html"] > p {
+a[href="gg"] > p {
     font-family: Ubuntu, sans-serif;
     font-size: 1.4rem;
     color: white;
