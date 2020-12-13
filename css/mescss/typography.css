@@ -17,6 +17,7 @@ a {
     text-decoration: none;
 }
 
+
 p {
     font-family: Ubuntu, sans-serif;
     font-style: normal;
@@ -177,7 +178,7 @@ a[href="gg"] {
     width: 71px;
     height: 32px;
     background-color: #800A69;
-    left: 220px;
+    left: 250px;
 }
 
 a[href="gg"] > p {
