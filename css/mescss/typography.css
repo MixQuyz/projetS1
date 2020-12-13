@@ -3,7 +3,7 @@ html{font-size: 62.5%; }
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
     margin: 0 20px;
 }
@@ -33,7 +33,7 @@ p {
     position: relative;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 20px;
 }
 
@@ -41,6 +41,7 @@ p {
     position: absolute;
     display: block;
     top: 10px;
+    left: 20px;
 }
 
 header > img {
@@ -62,6 +63,7 @@ header > img {
     font-style: normal;
     font-size: 24px;
     padding: 10px;
+    margin: 0;
 }
 
 .tweet > h2 {
@@ -81,7 +83,7 @@ header > img {
     background-color: #800A69;
     color: white;
     margin: 0 -20px;
-    padding: 0 20px;
+    padding: 0 20px 5px 20px;
 
 }
 
@@ -97,6 +99,7 @@ h2 {
     font-family: "Ubuntu Mono" ,sans-serif;
     font-size: 20px;
     font-weight: bold;
+    margin: 0px;
 }
 
 footer {
@@ -130,11 +133,58 @@ p > a {
     padding: 10px 20px;
 }
 
+.bordeaux > p > a {
+    background-color: #4C0A80;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
 footer > .milieu_footer {
     display: table-cell;
+
 }
 
 .sociaux {
     display: table-cell;
-    padding-left: 40px;
+    padding-left: 60px;
+}
+
+/*input questionnaire :*/
+
+input {
+    display: block;
+    height: 25px;
+    width: 290px;
+    font-family: Ubuntu, sans-serif;
+    border: none;
+}
+
+textarea {
+    display: block;
+    height: 125px;
+    width: 290px;
+    font-family: Ubuntu, sans-serif;
+    border: none;
+}
+
+a[href="a_propos.html"] {
+    display: block;
+    position: relative;
+    width: 71px;
+    height: 32px;
+    background-color: #800A69;
+    left: 220px;
+}
+
+a[href="a_propos.html"] > p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+
 }

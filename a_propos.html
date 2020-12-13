@@ -19,7 +19,19 @@
         <i><img src="css/mescss/llama.svg" alt="#" width="51" height="51"></i>
         <h1>LAMA's RESPONSIBLE</h1>
     </div>
-    <img src="img/menu_icone.png" height="45" width="45"/>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="fortnite.html">Qu'est ce que Fortnite ?</a></li>
+            <li><a href="pollution.html">Fortnite et sa pollution .</a></li>
+            <li><a href="resolution.html">Jouer sans polluer ?</a></li>
+            <li><a href="a_propos.html">A propos ...</a></li>
+        </ul>
+    </nav>
 </header>
 
 <div class="top">
@@ -30,31 +42,52 @@
 
 
 <div class="violet">
+
 <h2>Intéressé par la pollution émise par le WEB en général ?</h2>
 <p>Si tu es intéressé par la pollution émise par le WEB en général je te donne ci dessous les liens vers d'autres projets d'autres étudiants traitant du même sujet et un questionnaire pour examiner tes connaissances suite a la lecture de nos articles :</p>
 
 <h2>Le Questionnaire :</h2>
-<p>En quel année Fortnite est né ?</p>
-<p>En quoi Fortnite pollue ?</p>
-<p>Quel est le problème avec les "Game As Service " ?</p>
+    <form action="ecrire">
+        <p>En quel année Fortnite est né ?</p>
+        <input type="text">
+
+        <p>En quoi Fortnite pollue ?</p>
+        <input type="text">
+
+        <p>En quoi Fortnite pollue ?</p>
+        <input type="text">
+
+        <p>Quel est le problème avec les "Game As Service " ?</p>
+        <input type="text">
+    </form>
 <p>Comment alors jouer en minimisant sa pollution ?</p>
 <h3>Envie de Nous communiquer quelque chose :</h3>
-<p>Email :</p>
-<p>Votre message :</p>
+    <form action="ecrire">
+        <p>Email :</p>
+        <input type="text">
 
-<p class="Envoyer"><a href="#">Envoyer</a></p>
+        <p>Votre message :</p>
+        <textarea name="user-message" ></textarea>
+    </form>
+
+
+    <a href="a_propos.html"><p class="Envoyer">Envoyer</p></a>
 </div>
 
 
 <h2>Listes des Autres projet :</h2>
 
 <p><a href="#">Tous des stalkers</a></p>
-<p><a href="#">ADN TECH</a></p>
-<p><a href="#">NetLab</a></p>
+<p><a href="https://projets1.lauravedrine.fr/">ADN TECH</a></p>
+<p><a href="http://projets1.pvarret.fr/">NetLab</a></p>
 <p><a href="#">The Dark Side of the Web</a></p>
 <p><a href="#">Black Reality</a></p>
-<p><a href="#">Zeta</a></p>
-<p><a href="#">BEHIND THE WEB</a></p>
+<p><a href="https://projets1.nathanvanbignootvincler.fr/">Zeta</a></p>
+<p><a href="http://projets1.laurataormina.fr/">Behind The WEB</a></p>
+<p><a href="http://projets1.laurataormina.fr/">Real Pollution</a></p>
+<p><a href="http://projets1.lucas-verove.fr/">Data Recall</a></p>
+<p><a href="http://projets1.clement-vuittenez.fr/">My Planet</a></p>
+
 
 
 
@@ -72,7 +105,7 @@
 
 
 
-        <p>Ce projet fut crée dans le cadre d'un projet personnel en DUT MMI<p/>
+        <p>Ce projet fut crée dans le cadre d'un projet personnel en DUT MMI</p>
     </div>
 
     <div class="sociaux">
