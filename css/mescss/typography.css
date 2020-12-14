@@ -116,13 +116,6 @@ footer > p {
 
 }
 
-footer > p > span {
-    font-size: 20px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed ;
-    display: block;
-
-}
 
 p > a {
     background-color: #800A69;
@@ -146,6 +139,8 @@ p > a {
 
 footer > .milieu_footer {
     display: table-cell;
+    padding: 15px;
+
 
 }
 
